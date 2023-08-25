@@ -1,0 +1,35 @@
+body {
+    background: url("https://graphicriver.img.customer.envatousercontent.com/files/263530201/Thinking%20Brain.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=e5303d69e62965b701cf478fb3d9edb5") no-repeat center center/cover;
+    height 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    width: 65%;
+    background-color: pink;
+    padding: 30px;
+    border-radius: 30px;
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.accordion .accordion-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.accordion .content-container .question {
+    padding: 18px 0px;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+
+    position: relative;
+}
+
+.accordion .content-container .question::after {
+    content: ' +';
+
+}
